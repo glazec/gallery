@@ -19,20 +19,20 @@ export default function Layout({ children }) {
                     css={css`
             margin-bottom: ${rhythm(2)};
             display: inline-block;
-            font-style: normal;
+            color:#F9F9F9
           `}
                 >
-                    Pandas Eating Lots
+                    Illustration & Design Gallery
         </h3>
             </Link>
-            <Link
+            {/* <Link
                 to={`/about/`}
                 css={css`
           float: right;
         `}
             >
                 About
-      </Link>
+      </Link> */}
             {children}
         </div>
     )
